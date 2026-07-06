@@ -123,8 +123,8 @@ Node.js >= 18
 ## Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <project-folder-name>
+git clone https://github.com/Prashant1b/Skribbl-Clone.git
+cd <Skribbl Clone>
 ```
 
 ---
@@ -381,21 +381,21 @@ Recommended deployment options:
 Frontend:
 
 ```env
-VITE_SERVER_URL=https://your-backend-url.com
+VITE_SERVER_URL=https://skribbl-clone-oam0.onrender.com
 ```
 
 Backend:
 
 ```env
 PORT=4000
-CLIENT_ORIGIN=https://your-frontend-url.com
+CLIENT_ORIGIN=https://skribblclone.vercel.app/
 ```
 
 After deployment, update this section:
 
 ```bash
-Live URL: <your-deployed-frontend-url>
-Backend URL: <your-deployed-backend-url>
+Live URL: https://skribblclone.vercel.app/
+Backend URL:https://skribbl-clone-oam0.onrender.com
 ```
 
 ---
