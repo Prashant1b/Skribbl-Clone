@@ -137,6 +137,12 @@ body {
   padding: 6px 10px; font-size: 13px; min-width: 130px; cursor: pointer;
 }
 .select-row select:disabled { opacity: 0.6; cursor: default; }
+/* Native option popup renders on a white system background on Windows, so the
+   light inherited text was invisible — force an opaque dark background here. */
+.select-row select option {
+  background: var(--panel-dark);
+  color: var(--text-light);
+}
 
 /* editable category block */
 .cat-block { display: flex; flex-direction: column; gap: 8px; }
